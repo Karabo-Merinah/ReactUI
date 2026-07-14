@@ -1,5 +1,6 @@
 import logo from '../../pictures/logo-picture.png'
 import cupCollection from '../../pictures/cup-collection.jpg'
+import HolidayLogo from '../../pictures/holiday.png'
 import styles from './Collection.module.css'
 import { Text } from '../Text/Text'
 import { ContentContainer } from '../Text/ContentContainer'
@@ -15,7 +16,8 @@ export const Collection = () => {
       <div className={styles['collection']}>
         <div className={styles['collection-card']}>
           <div className={styles['holiday-con']}>
-            <Text variant={'h2'} style={{ fontFamily: 'Brush Script MT', fontSize: 20 }}>Holiday</Text>
+            <Text variant={'h2'} style={{ fontFamily: 'Brush Script MT', fontSize: 35 }}>Holiday</Text>
+            <img className={styles['holiday-logo']} src={HolidayLogo}></img>
             <Text variant={'h2'}>-20% OFF</Text>
             <button className={styles['butt-style']}>ORDER TODAY</button>
           </div>

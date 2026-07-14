@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <nav>
    <ContentContainer className={styles.content}>
-    <Text variant={'h2'} style={{fontFamily:"Alex Brush",fontSize:25,fontStyle:'italic',fontWeight:'bolder'}}>Paliserie</Text>
+    <Text variant={'h2'} style={{fontFamily:"Alex Brush",fontSize:25,fontStyle:'italic',fontWeight:'bolder',paddingLeft:20}}>Paliserie</Text>
      <div className={styles.links}>
         <a href="#HOME" className={styles.link}>HOME</a>
         <a href="#MENU" className={styles.link}>MENU</a>

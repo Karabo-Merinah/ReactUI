@@ -17,7 +17,7 @@ export const Menu:React.FC<MenuItemCardProps> = ({pictures,desc}) => {
   return (
     <ContentContainer >
     <div className={styles['menu-cont']}>
-    <Text variant={'h2'} style={{fontWeight:'bold',fontFamily:'Trebuchet MS',fontSize:20,textAlign:'center',paddingTop:20,paddingBottom:20}}>Delight in every Bite!</Text>
+    <Text variant={'h2'} style={{fontWeight:'bold',fontFamily:'Trebuchet MS',fontSize:30,textAlign:'center',paddingTop:20,paddingBottom:20}}>Delight in every Bite!</Text>
      <div className={styles['image-grid']}>
         {
             pictures.map(product=>{

@@ -1,5 +1,6 @@
 footer{
     bottom:0px;
+    background-color: #FDFDFD;
 }
 
 .footer-cont{
@@ -8,40 +9,36 @@ footer{
    align-items: center;
    justify-content: space-between;
    gap:10px;
-   padding:30px 50px;
+   padding:40px 20px;
    background-color: #fdfdfd;
-   max-width:1200px;
+   max-width:1100px;
    margin:0 auto;
    width:100%;
+   box-sizing: border-box;
    
 }
 .img1-footer{
-    width:150px;
+    width:250px;
     height:150px;
-    padding-left:40px;
-    padding-right:40px;
 }
 .card{
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width:200px;
+    width:250px;
     height:150px;
     text-align: center;
     border-left:2px solid #ECCFC8;
     border-right:2px solid #EAE9E4;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left:20px;
+    padding-right:20px;
 }
 .social-links {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width:300px;
     text-align: center;
-    padding-left:40px;
-    padding-right:40px;
     
 }
 .socials-align{
@@ -49,12 +46,31 @@ footer{
     flex-direction: row;
     gap:15px;  
 }
+.socials-align a{
+    font-size: 28px;
+}
 .facebook-icon{
     color: #963949;
+}
+.socials-align a:hover{
+    color:aqua;
 }
 .instagram-icon{
     color:#ECCFC8;
 }
 .pinterest-icon{
     color:#963949;
+}
+@media(max-width:768px){
+    .footer-cont{
+        flex-direction: column;
+        padding:40px 20px;
+    }
+    .social-links{
+        text-align: center;
+        align-items: center;
+    }
+    .socials-align{
+        justify-content: center;
+    }
 }
