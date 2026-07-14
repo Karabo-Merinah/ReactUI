@@ -9,8 +9,8 @@ import cakes from '../src/assets/pictures/cakes.jpg'
 import { useState } from 'react'
 import {Menu} from '../src/assets/Menu/Menu'
 function App() {
- const [pictures,setPictures]=useState([{id:1,imgLink:CustomCakes},{id:2,imgLink:cakes},{id:3,imgLink:cupcakes}])
- const [desc,setDesc]=useState([{id:1,name:'Custom Cakes',description:"Handcrafted cakes made to order for your special celebration."},{id:2,name:'Macaroins',description:"Delicate, colorful macarons baked fresh daily."},{id:3,name:'Cupcakes',description:"A sweet variety of cupcakes for every occasion"}])
+ const [pictures]=useState([{id:1,imgLink:CustomCakes},{id:2,imgLink:cakes},{id:3,imgLink:cupcakes}])
+ const [desc]=useState([{id:1,name:'Custom Cakes',description:"Handcrafted cakes made to order for your special celebration."},{id:2,name:'Macaroins',description:"Delicate, colorful macarons baked fresh daily."},{id:3,name:'Cupcakes',description:"A sweet variety of cupcakes for every occasion"}])
   return (
     <>
     <div id="app-container">
