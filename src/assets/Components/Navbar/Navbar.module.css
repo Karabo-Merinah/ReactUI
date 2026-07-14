@@ -1,0 +1,41 @@
+.nav{
+    top:0;
+    height:30px;
+    max-width:100%;
+}
+
+.content{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+text-align:center;
+justify-content: space-between;
+background-color:#EDCECB;
+
+}
+.nav-butt{
+    background-color: #FDFDFD;
+    border:none;
+    font-weight: bold;
+    width:250px;
+    height:25px;
+   
+}
+
+.nav-butt:hover{
+  color:blue;
+}
+.links{
+ 
+ display:flex;
+ gap:10px;
+ cursor:pointer;
+}
+.link{
+    color:rgb(20,20,20);
+    text-decoration: none;
+    cursor: pointer;
+}
+.link:hover{
+    color:blue;
+}
