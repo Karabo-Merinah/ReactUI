@@ -1,10 +1,10 @@
 #app-container{
    position:relative;
-   height:calc(100vh - 100px);
    width:100%;
-   padding-bottom:100px;
 }
 
 #scrollable{
-    padding-top:0px;
+   position:sticky;
+   top:0;
+   z-index:100;
 }

@@ -45,9 +45,11 @@ footer{
     display: flex;
     flex-direction: row;
     gap:15px;  
+    padding-right:20px;
+
 }
 .socials-align a{
-    font-size: 28px;
+    font-size: 45px;
 }
 .facebook-icon{
     color: #963949;
@@ -62,6 +64,11 @@ footer{
     color:#963949;
 }
 @media(max-width:768px){
+    .img1-footer{
+        width:100%;
+        max-width: 250px;
+        height:150px;
+    }
     .footer-cont{
         flex-direction: column;
         padding:40px 20px;

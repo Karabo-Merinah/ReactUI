@@ -17,7 +17,7 @@ export const Menu:React.FC<MenuItemCardProps> = ({pictures,desc}) => {
   return (
     <ContentContainer >
     <div className={styles['menu-cont']}>
-    <Text variant={'h2'} style={{fontWeight:'bold',fontFamily:'Trebuchet MS',fontSize:30,textAlign:'center',paddingTop:20,paddingBottom:20}}>Delight in every Bite!</Text>
+    <Text variant={'h2'} style={{fontFamily:"Exo,sans-serif",fontSize:30,textAlign:'center',paddingTop:20,paddingBottom:20}}>Delight in every Bite!</Text>
      <div className={styles['image-grid']}>
         {
             pictures.map(product=>{
@@ -27,18 +27,20 @@ export const Menu:React.FC<MenuItemCardProps> = ({pictures,desc}) => {
         }
      </div>
      </div>
+     <div className={styles['text-section']}>
      <div className={styles['text-grid']}>
         {
           desc.map(item=>{
                     return (
                   <div className={styles['menu-text']} key={item.id}>
                     <Text variant={'h2'} style={{fontFamily:"'Kotta One',serif",fontSize:20}}>{item.name}</Text>
-                    <Text variant={'h3'} style={{fontWeight:'lighter',fontSize:15}}>{item.description}</Text>
+                    <Text variant={'h3'} style={{fontWeight:'lighter',fontSize:10,color:'black'}}>{item.description}</Text>
                     <button className={styles['buttons']}>Order now</button>
                   </div>
                 )
             })
         }
+     </div>
      </div>
  </ContentContainer>
 

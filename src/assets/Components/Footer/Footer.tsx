@@ -1,13 +1,13 @@
 import styles from './Footer.module.css'
 import {Text} from '../Text/Text'
 import {FaFacebook,FaInstagram,FaPinterest} from 'react-icons/fa'
-import cupFooter from '../../pictures/cup_footer.jpg'
 import footerCard from '../../pictures/footer_card.png'
+import footerImg from '../../pictures/footer.jpg'
 export const Footer = () => {
   return (
    <footer>
     <div className={styles['footer-cont']}>
-    <img className={styles['img1-footer']} src={cupFooter}></img>
+    <img className={styles['img1-footer']} src={footerImg}></img>
     <div className={styles['card']}>
     <img  src={footerCard}></img>
     </div>

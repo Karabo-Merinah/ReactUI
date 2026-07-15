@@ -8,8 +8,8 @@ export const Home = () => {
     <ContentContainer>
     <div className={styles['back-img']}>
       <div className={styles['texts']}>
-    <Text variant={'h2'} style={{fontFamily:'"Yellowtail",cursive',fontWeight:'bolder',fontSize:50,color:'ButtonShadow'}}>Delight in</Text>
-       <Text variant={'h3'} style={{fontFamily:'sans-serif',color:'ButtonShadow',fontSize:15}}>PARTICULARLY IN FURY BITE!</Text>
+    <Text variant={'h2'} style={{fontFamily:'"Alex Brush",cursive',fontWeight:'bolder',fontSize:70,color:'black'}}>Delight in</Text>
+       <Text variant={'h3'} style={{fontFamily:'sans-serif',color:'black',fontSize:15}}>PATIICU IN FUERY BITE!</Text>
  <button className={styles.button}>ORDER NOW</button>
     </div>
     </div>

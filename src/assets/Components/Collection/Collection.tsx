@@ -16,7 +16,7 @@ export const Collection = () => {
       <div className={styles['collection']}>
         <div className={styles['collection-card']}>
           <div className={styles['holiday-con']}>
-            <Text variant={'h2'} style={{ fontFamily: 'Brush Script MT', fontSize: 35 }}>Holiday</Text>
+            <Text variant={'h2'} style={{ fontFamily: "Alex Brush", fontSize: 35,fontWeight:'bold' }}>Holiday</Text>
             <img className={styles['holiday-logo']} src={HolidayLogo}></img>
             <Text variant={'h2'}>-20% OFF</Text>
             <button className={styles['butt-style']}>ORDER TODAY</button>
@@ -31,13 +31,14 @@ export const Collection = () => {
             </div>
           </div>
 
-        </div>
+        </div>        
         <div className={styles['collection-card']}>
           <div className={styles['third-collect']}>
             <img className={styles['img-coll']} src={cupCollection}></img>
             <div className={styles['collection-back']}>
-              <Text variant={'span'} style={{ fontFamily: 'cursive', color: 'white' }}>Holiday Collection</Text>
-              <Text variant={'h2'} style={{ fontFamily: 'monospace', color: 'white' }}>30 PTS</Text>
+              <Text variant={'span'} style={{ fontFamily: "'Satisfy', cursive", color: 'white' ,fontSize:25}}>Holiday Collection</Text>
+              <Text variant={'h2'} style={{ fontFamily: "'Satisfy', cursive", color: 'white',fontSize:10}}>Most loved product</Text>
+              <Text variant={'h2'} style={{ fontFamily:"'Satisfy', cursive", color: 'white' ,fontSize:15}}>30 PTS</Text>
               <button className={styles['butt-cup']}>Order now </button>
             </div>
           </div>
