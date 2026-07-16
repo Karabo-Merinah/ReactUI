@@ -29,7 +29,12 @@
         height:500px;
     }
     .texts{
-        padding-top: 120px;
-        padding-bottom: 40;
+        padding-top: 110px;
+        font-size:20px;
+    }
+    .button{
+        width:90px;
+        padding-top:10px;
+        padding-bottom: 10px;
     }
 }
