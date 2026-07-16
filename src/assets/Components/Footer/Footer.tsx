@@ -2,7 +2,7 @@ import styles from './Footer.module.css'
 import {Text} from '../Text/Text'
 import {FaFacebook,FaInstagram,FaPinterest} from 'react-icons/fa'
 import footerCard from '../../pictures/footer_card.png'
-import footerImg from '../../pictures/footer.jpg'
+import footerImg from '../../pictures/footer1.png'
 
 export const Footer = () => {
   return (

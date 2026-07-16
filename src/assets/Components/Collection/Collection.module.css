@@ -109,13 +109,13 @@
   color: brown;
 }
 .cupcake-button {
-  border-radius: 50px 50px;
+  border-radius: 50px 50px 50px;
   background-color: #FDFDFD;
   border: none;
   cursor: pointer;
-  padding-top:5px;
-  padding-bottom: 5px;
-  width:100px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  width:120px;
   font-weight: bold;
 }
 .cupcake-button:hover {
