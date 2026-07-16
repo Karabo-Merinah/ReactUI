@@ -1,10 +1,9 @@
 import logo from '../../pictures/logo-picture.png'
-import cupCollection from '../../pictures/cup-collection.jpg'
 import HolidayLogo from '../../pictures/holiday.png'
 import styles from './Collection.module.css'
 import { Text } from '../Text/Text'
 import { ContentContainer } from '../Text/ContentContainer'
-
+import collection from '../../pictures/holiday-collection.png'
 
 export const Collection = () => {
   return (
@@ -34,12 +33,11 @@ export const Collection = () => {
           </div>
         </div>        
         <div className={styles['collection-card']}>
-          <div className={styles['third-collect']}>
-            <img className={styles['img-coll']} src={cupCollection}></img>
+         <div className={styles['third-collect']} style={{backgroundImage:`url(${collection})`}}>
             <div className={styles['collection-back']}>
-              <Text variant={'span'} style={{ fontFamily: "Alex Brush", color: 'white' ,fontSize:25}}>Holiday Collection</Text>
-              <Text variant={'h2'} style={{ fontFamily: "Alex Brush", color: 'white',fontSize:10}}>Most loved product</Text>
-              <Text variant={'h2'} style={{ fontFamily:"'Satisfy', cursive", color: 'white' ,fontSize:15}}>30 PTS</Text>
+              <Text variant={'h3'} className={styles['collection-title']} style={{ fontFamily: "Alex Brush", color: 'white' }}>Holiday Collection</Text>
+              <Text variant={'h2'} className={styles['collection-subtitle']} style={{ fontFamily: "Alex Brush", color: 'white'}}>Most loved product</Text>
+              <Text variant={'h2'} className={styles['points']} style={{ fontFamily:"'Satisfy', cursive", color: 'white' }}>30 PTS</Text>
               <div className={styles['butt-div']}>
                  <button className={styles['butt-cup']}>Order now </button>
               </div>

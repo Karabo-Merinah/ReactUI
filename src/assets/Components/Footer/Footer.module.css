@@ -69,7 +69,10 @@ footer{
     }
     .footer-cont{
         flex-direction: column;
-        padding:40px 20px;
+        padding-left:20px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-top:40px;
     }
     .social-links{
         text-align: center;
@@ -77,5 +80,30 @@ footer{
     }
     .socials-align{
         justify-content: center;
+    }
+}
+@media (max-width:480px){
+    .img1-footer{
+        max-width:200px;
+        height:auto;
+    }
+    .card{
+        width:100%;
+        height: auto;
+        padding-top:16px;
+        padding-bottom: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border:none;
+    }
+    .footer-cont{
+        padding-bottom: 24px;
+        padding-top: 24px;
+        padding-left: 16px;
+        padding-left: 16px;
+        gap:20px;
+    }
+    .socials-align a{
+        font-size: 32px;
     }
 }

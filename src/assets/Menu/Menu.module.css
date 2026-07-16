@@ -92,3 +92,21 @@
         padding-right:20px;
     }
 }
+@media(max-width:480px){
+    .image-grid,
+    .text-grid{
+        gap:16px;
+    }
+    .menu-cont,
+    .text-grid{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .menu-pictures{
+        height: 220px;
+    }
+    .buttons{
+        width:110px;
+        font-size: 12px;
+    }
+}

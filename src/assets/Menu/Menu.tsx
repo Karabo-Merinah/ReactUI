@@ -15,8 +15,9 @@ type DescProps={
 }
 export const Menu:React.FC<MenuItemCardProps> = ({pictures,desc}) => {
   return (
-     <ContentContainer >
+    <>
     <div className={styles['menu-cont']}>
+     <ContentContainer >
     <Text variant={'h2'} style={{fontFamily:"Exo,sans-serif",fontSize:30,textAlign:'center',paddingTop:20,paddingBottom:20}}>Delight in every Bite!</Text>
      <div className={styles['image-grid']}>
         {
@@ -26,8 +27,11 @@ export const Menu:React.FC<MenuItemCardProps> = ({pictures,desc}) => {
             )
         }
      </div>
+     </ContentContainer>
      </div>
+
      <div className={styles['text-section']}>
+      <ContentContainer>
      <div className={styles['text-grid']}>
         {
           desc.map(item=>{
@@ -41,8 +45,8 @@ export const Menu:React.FC<MenuItemCardProps> = ({pictures,desc}) => {
             })
         }
      </div>
+     </ContentContainer>
      </div>
- </ContentContainer>
-
+</>
   )
 }
