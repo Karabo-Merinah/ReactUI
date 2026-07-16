@@ -2,7 +2,7 @@
     background-image: url('../../pictures/home_picture.png');
     background-size: cover;
     background-position: center;
-    height:900px;
+    height:1000px;
     width:100%;
 }
 .button{
@@ -18,7 +18,7 @@
     color:blue;
 }
 .texts{
-    padding-top:230px;
+    padding-top:280px;
     text-align: center;
     padding-bottom: 90px;
     justify-content: center;

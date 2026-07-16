@@ -37,10 +37,12 @@ export const Collection = () => {
           <div className={styles['third-collect']}>
             <img className={styles['img-coll']} src={cupCollection}></img>
             <div className={styles['collection-back']}>
-              <Text variant={'span'} style={{ fontFamily: "'Satisfy', cursive", color: 'white' ,fontSize:25}}>Holiday Collection</Text>
-              <Text variant={'h2'} style={{ fontFamily: "'Satisfy', cursive", color: 'white',fontSize:10}}>Most loved product</Text>
+              <Text variant={'span'} style={{ fontFamily: "Alex Brush", color: 'white' ,fontSize:25}}>Holiday Collection</Text>
+              <Text variant={'h2'} style={{ fontFamily: "Alex Brush", color: 'white',fontSize:10}}>Most loved product</Text>
               <Text variant={'h2'} style={{ fontFamily:"'Satisfy', cursive", color: 'white' ,fontSize:15}}>30 PTS</Text>
-              <button className={styles['butt-cup']}>Order now </button>
+              <div className={styles['butt-div']}>
+                 <button className={styles['butt-cup']}>Order now </button>
+              </div>
             </div>
           </div>
         </div>
