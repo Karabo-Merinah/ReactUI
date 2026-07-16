@@ -15,7 +15,7 @@ type DescProps={
 }
 export const Menu:React.FC<MenuItemCardProps> = ({pictures,desc}) => {
   return (
-    <ContentContainer >
+     <ContentContainer >
     <div className={styles['menu-cont']}>
     <Text variant={'h2'} style={{fontFamily:"Exo,sans-serif",fontSize:30,textAlign:'center',paddingTop:20,paddingBottom:20}}>Delight in every Bite!</Text>
      <div className={styles['image-grid']}>

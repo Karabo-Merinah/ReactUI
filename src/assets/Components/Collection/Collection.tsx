@@ -8,9 +8,11 @@ import { ContentContainer } from '../Text/ContentContainer'
 
 export const Collection = () => {
   return (
+    <>
+     <div className={styles['logo-img']}>
     <ContentContainer className={styles['content']}>
-      <div className={styles['logo-img']}>
         <img src={logo}></img>
+        </ContentContainer>
       </div>
       <div className={styles['collection-wrapper']}>
       <div className={styles['collection']}>
@@ -18,7 +20,7 @@ export const Collection = () => {
           <div className={styles['holiday-con']}>
             <Text variant={'h2'} style={{ fontFamily: "Alex Brush", fontSize: 35,fontWeight:'bold' }}>Holiday</Text>
             <img className={styles['holiday-logo']} src={HolidayLogo}></img>
-            <Text variant={'h2'}>-20% OFF</Text>
+            <Text variant={'h2'} style={{fontStyle:"'Dancing Script',cursive"}}>-20% OFF</Text>
             <button className={styles['butt-style']}>ORDER TODAY</button>
           </div>
         </div>
@@ -30,7 +32,6 @@ export const Collection = () => {
               </Text>
             </div>
           </div>
-
         </div>        
         <div className={styles['collection-card']}>
           <div className={styles['third-collect']}>
@@ -43,10 +44,9 @@ export const Collection = () => {
             </div>
           </div>
         </div>
-      </div>
-      </div>
-
-    </ContentContainer>
+      </div> 
+    </div>
+    </>
   )
 }
 
