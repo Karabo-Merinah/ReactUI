@@ -27,7 +27,6 @@ footer{
     justify-content: center;
     width:250px;
     height:150px;
-    text-align: center;
     border-left:2px solid #ECCFC8;
     border-right:2px solid #EAE9E4;
     padding-left:20px;
@@ -69,10 +68,6 @@ footer{
     }
     .footer-cont{
         flex-direction: column;
-        padding-left:20px;
-        padding-right: 20px;
-        padding-bottom: 40px;
-        padding-top:40px;
     }
     .social-links{
         text-align: center;
@@ -89,18 +84,9 @@ footer{
     }
     .card{
         width:100%;
-        height: auto;
-        padding-top:16px;
-        padding-bottom: 16px;
-        padding-left: 10px;
-        padding-right: 10px;
         border:none;
     }
-    .footer-cont{
-        padding-bottom: 24px;
-        padding-top: 24px;
-        padding-left: 16px;
-        padding-left: 16px;
+    .footer-cont{ 
         gap:20px;
     }
     .socials-align a{
