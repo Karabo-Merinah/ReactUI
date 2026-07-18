@@ -51,11 +51,8 @@
 }
 html,body{
   overscroll-behavior: none;
-  
 }
-
 #root {
-
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -65,11 +62,9 @@ html,body{
   flex-direction: column;
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
 }
-
 h1,
 h2 {
   font-family: var(--heading);
